@@ -15,6 +15,7 @@ import RenewableEnergyFunds from "./components/RenewableEnergyFunds";
 import Transactions from "./pages/Transactions";
 import Navbar from "./components/Navbar";
 import { useState , useEffect} from "react";
+import Calenderc from "./pages/Calenderc";
 
 
 function App() {
@@ -39,6 +40,8 @@ const [isLogged, setIsLogged] = useState(false);
           <Route path="/" element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Publish" element={<Publish />} />
+          <Route path="/Upcoming-events" element={<Calenderc />} />
+
 
           <Route path="/Green_Investment" element={<GreenProjects />} />
           <Route path="/Login" element={<Login isLogged={isLogged} setIsLogged={setIsLogged} />} />

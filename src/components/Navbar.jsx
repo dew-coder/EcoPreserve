@@ -11,24 +11,20 @@ const Navbar = () => {
 
     {
       path: "/green_investment/green_projects",
-      title: "Green Investment",
+      title: "Donate Now",
+    },
+    {
+      path: "/Upcoming-events",
+      title: "Upcoming Events",
     },
     // {
-    //   path: "/CreditHub",
-    //   title: "CreditHub",
+    //   path: "/Projects",
+    //   title: "Projects",
     // },
-    {
-      path: "/Projects",
-      title: "Projects",
-    },
 
     {
       path: "/Publish",
       title: "Publish your campaign",
-    },
-    {
-      path: "/Impact",
-      title: "Impact",
     },
     // {
     //   path: "/CarbonCoin",

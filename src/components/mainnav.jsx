@@ -13,25 +13,26 @@ const MainNav = ({isLogged, setIsLogged}) => {
     // },
     {
       path: "/green_investment/green_projects",
-      title: "Green Investment",
+      title: "Donate Now",
+    },
+    {
+      path: "/Upcoming-events",
+      title: "Upcoming Events",
     },
     // {
     //   path: "/CreditHub",
     //   title: "CreditHub",
     // },
-    {
-      path: "/Impact",
-      title: "Impact",
-    },
-    {
-      path: "/Projects",
-      title: "Projects",
-    },
+    // {
+    //   path: "/Projects",
+    //   title: "Projects",
+    // },
 
     {
       path: "/Publish",
       title: "Publish your campaign",
     },
+    
 
     // {
     //   path: "/CarbonCoin",
