@@ -67,12 +67,13 @@ const Login = ({isLogged, setIsLogged}) => {
   };
 
   return (
-    <div className="whole-form-page">
-      <div className="pt-24 px-16 pb-14">
-        <form onSubmit={handleSubmit} className="main bg-white form-login">
-          <div className="font-bold text-3xl pb-6">Login to your account</div>
-          <label htmlFor="email" className="pb-2 text-lg">E-mail ID / Customer ID</label>
+    <div className="whole-form-page bg-black text-white">
+      <div className="pt-24 px-16 pb-14 bg-black text-white ">
+        <form onSubmit={handleSubmit} className="main bg-black text-white  form-login">
+          <div className="font-bold text-3xl pb-6 text-white">Login to your account</div>
+          <label htmlFor="email" className="pb-2 text-lg" style={{ color: 'white' }}>E-mail ID / Customer ID</label>
           <input
+          className="bg-[#1f201f] "
             name="email"
             id="email"
             type="email"
@@ -84,15 +85,16 @@ const Login = ({isLogged, setIsLogged}) => {
             <Link to="/forgot-password" className="text-sm text-red-500">Forgot Login ID?</Link>
           </span>
           <br />
-          <label htmlFor="password" className="pb-2 text-lg">Password</label>
+          <label htmlFor="password"  style={{ color: 'white' }} className="pb-2 text-lg form-class">Password</label>
           <input
+          className="bg-[#1f201f] border-2 border-white appearance-none  outline-none "
+          preventDefault
             name="password"
             id="password"
             type="password"
             placeholder="Enter Password"
             value={formDetails.password}
             onChange={changeHandler}
-            className=""
           />
           <BiSolidHide className="text-red-500 size-6 relative bottom-8 btnn" />
           <span>

@@ -17,10 +17,10 @@ const Navbar = () => {
       path: "/Upcoming-events",
       title: "Upcoming Events",
     },
-    // {
-    //   path: "/Projects",
-    //   title: "Projects",
-    // },
+    {
+      path: "/store",
+      title: "Store",
+    },
 
     {
       path: "/Publish",

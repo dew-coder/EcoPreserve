@@ -19,6 +19,10 @@ const MainNav = ({isLogged, setIsLogged}) => {
       path: "/Upcoming-events",
       title: "Upcoming Events",
     },
+    {
+      path: "/store",
+      title: "Store",
+    },
     // {
     //   path: "/CreditHub",
     //   title: "CreditHub",
