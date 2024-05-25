@@ -54,20 +54,7 @@ const Home = () => {
               Invest in a sustainable future where your contributions directly
               affect biodiversity conservation and cultural heritage protection.{" "}
             </div>
-            <div className="flex gap-7 items-center ">
-              <div>
-                <input
-                  className="border-2 border-black p-2 px-4 rounded-3xl bg-slate-100 pr-28 text-black"
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Enter your email address"
-                />
-              </div>
-              <div className="border-2 border-black px-6 rounded-3xl bg-green-700 cursor-pointer text-white py-2 hover:bg-green-500 font-bold hover:text-black ">
-                Join Now
-              </div>
-            </div>
+
             <div className="flex gap-24 mt-6">
               <div className="flex flex-col gap-3 text-xl">
                 <div>300+ </div>

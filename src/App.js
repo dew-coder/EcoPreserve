@@ -5,7 +5,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Footer from "./components/Footer";
 import Projects from "./new_pages/Projects"
-import Publish from "./new_pages/Publish";
+import PublishCampaign from "./pages/PublishCampaign";
 import PersonalDetails from "./components/PersonalDetails";
 import Profile from "./pages/Profile";
 import MainNav from "./components/mainnav";
@@ -40,7 +40,7 @@ const [isLogged, setIsLogged] = useState(false);
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
-          <Route path="/Publish" element={<Publish />} />
+          <Route path="/Publish" element={<PublishCampaign/>} />
           <Route path="/Upcoming-events" element={<Calenderc />} />
 
 
