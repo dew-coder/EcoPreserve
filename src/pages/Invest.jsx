@@ -54,11 +54,11 @@ const Invest = () => {
   //   }
   // };
 
-  // const location = useLocation();
-  // const details = location.state.project;
+  const location = useLocation();
+  const details = location.state.project;
   return (
     <div className="w-full h-full px-5">
-      {/* <h1 className="mt-2 text-2xl font-bold">{details.project_name}</h1>
+      <h1 className="mt-2 text-2xl font-bold">{details.project_name}</h1>
             <p className="mb-3">
             {details.company_name}
             </p>
@@ -93,7 +93,7 @@ const Invest = () => {
                 
             </form>
         </div>
-        </div> */}
+        </div>
       {/* {accounts.length > 0 ? (
         <p>Connected Account: {accounts[0]}</p>
       ) : (

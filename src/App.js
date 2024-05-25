@@ -4,19 +4,19 @@ import Invest from "./pages/Invest";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Footer from "./components/Footer";
-import Projects from "./new_pages/Projects"
+// import Projects from "./new_pages/Projects"
 import PublishCampaign from "./pages/PublishCampaign";
 import PersonalDetails from "./components/PersonalDetails";
 import Profile from "./pages/Profile";
 import MainNav from "./components/mainnav";
-import GreenInvestment from "./pages/GreenInvestment";
-import GreenProjects from "./components/GreenProjects";
-import RenewableEnergyFunds from "./components/RenewableEnergyFunds";
-import Transactions from "./pages/Transactions";
+
+// import Transactions from "./pages/Transactions";
 import Navbar from "./components/Navbar";
 import Calenderc from "./pages/Calenderc";
 
+
 import { useState , useEffect} from "react";
+import DonateProject from "./new_pages/DonateProject";
 
 
 function App() {
@@ -39,12 +39,12 @@ const [isLogged, setIsLogged] = useState(false);
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Projects" element={<Projects />} />
+          <Route path="/Projects" element={<DonateProject/>} />
           <Route path="/Publish" element={<PublishCampaign/>} />
           <Route path="/Upcoming-events" element={<Calenderc />} />
 
 
-          <Route path="/Green_Investment" element={<GreenProjects />} />
+         
           <Route path="/Login" element={<Login isLogged={isLogged} setIsLogged={setIsLogged} />} />
           <Route path="/Signup" element={<Signup  isLogged={isLogged} setIsLogged={setIsLogged} />} />
 
@@ -57,16 +57,8 @@ const [isLogged, setIsLogged] = useState(false);
             />
             <Route exact path="" element={<Navigate to="personal_details" />} />
           </Route>
-          <Route path="Green_Investment" element={<GreenInvestment />}>
-            <Route path="Green_Projects" element={<GreenProjects />} />
-            <Route
-              path="Renewable_Energy_Funds"
-              element={<RenewableEnergyFunds />}
-            />
-            <Route path="" element={<Navigate to="Green_Projects" />} />
-          </Route>
-
-          <Route path="Transactions" element={<Transactions />} />
+         
+          {/* <Route path="Transactions" element={<Transactions />} /> */}
           <Route path="Invest" element={<Invest/>} />
 
         </Routes>

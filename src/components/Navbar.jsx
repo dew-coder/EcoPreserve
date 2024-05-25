@@ -10,17 +10,15 @@ const Navbar = () => {
     },
 
     {
-      path: "/green_investment/green_projects",
-      title: "Donate Now",
+      path: "/Projects",
+      title: "Projects",
     },
+    
     {
       path: "/Upcoming-events",
       title: "Upcoming Events",
     },
-    // {
-    //   path: "/Projects",
-    //   title: "Projects",
-    // },
+  
 
     {
       path: "/Publish",

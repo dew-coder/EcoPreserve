@@ -1,6 +1,6 @@
 import {useNavigate} from "react-router-dom";
 
-const InvCard = (props) => {
+const ProjectCard = (props) => {
   
   const navigate = useNavigate();
     const details=props.data;
@@ -32,11 +32,11 @@ const InvCard = (props) => {
                   
                   navigate("/Invest", {state: {project: details}, replace: true});
                 }
-            } >Invest</button>
+            } >Donate</button>
         </div>
         </div>
         </div>
     );
 }
  
-export default InvCard;
+export default ProjectCard;
