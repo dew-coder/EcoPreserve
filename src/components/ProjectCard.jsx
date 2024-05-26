@@ -21,10 +21,7 @@ const ProjectCard = (props) => {
         </div>
         
         <p className="text-sm description">{details.project_description.split(" ").slice(0,40).join(" ")+" . . ."}</p>
-        <div className="flex flex-wrap mt-4">
-        <p className="me-2 border-solid border px-2 rounded-xl text-sm hover:bg-green-400/10">{details.project_category}</p>
-        <p className="border-solid border px-2 rounded-xl text-sm  hover:bg-green-400/10">{details.project_location}</p>
-        </div>
+        
         <div className=" grow flex justify-center items-end mt-3">
             <button className="bg-green-500/50 py-1 px-3 rounded-md hover:bg-green-500/80" onClick={
                 ()=>{

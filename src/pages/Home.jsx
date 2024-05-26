@@ -34,7 +34,7 @@ const Home = () => {
 
   </div> */}
 
-          <div className="text-center">Preserving Nature & Mother Earth</div>
+          <div className="text-center">Preserving Nature & Cultural Heritage</div>
 
           <div className=" flex justify-center w-[100dvw] mt-12 ">
             {/* <div className="font-bold  px-6 py-4  text-white  text-2xl rounded-lg bg-green-700  cursor-pointer absolute z-20  hover:bg-green-500">

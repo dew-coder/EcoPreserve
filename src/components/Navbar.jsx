@@ -48,14 +48,14 @@ const Navbar = () => {
   ];
   return (
     <nav className=" main-nav flex place-content-between bg-black text-white items-center h-14 text-[1.2rem]" >
-    <h1 className="px-10 font-bold text-xl">EcoPreserve Horizon</h1>
-    <div className="flex h-full items-stretch">
+    <h1 className="px-10 font-bold text-xl">BioPreserve</h1>
+    <div className="flex gap-2">
         {
             NavItems.map((item,index) => (
             
               <NavLink key={index} to={item.path} className={({ isActive, isPending }) =>
-                isPending ? "hover:bg-green-900 " : isActive ? "bg-green-800/80 px-6 flex h-full items-center justify-center  " : "px-6 hover:bg-green-800/[0.3] flex h-full items-center justify-center "
-              }><p>{item.title}</p></NavLink>
+                isPending ? "hover:bg-green-900 " : isActive ? "bg-green-800/80 px-6 flex h-full items-center justify-center rounded-lg " : "px-6 hover:bg-green-800/[0.3] flex h-full items-center justify-center rounded-lg "
+              }><p className='p-1'>{item.title}</p></NavLink>
             ))
         }
 
