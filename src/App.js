@@ -13,6 +13,8 @@ import MainNav from "./components/mainnav";
 // import Transactions from "./pages/Transactions";
 import Navbar from "./components/Navbar";
 import Calenderc from "./pages/Calenderc";
+import Store from "./pages/Store";
+
 
 
 import { useState , useEffect} from "react";
@@ -42,6 +44,7 @@ const [isLogged, setIsLogged] = useState(false);
           <Route path="/Projects" element={<DonateProject/>} />
           <Route path="/Publish" element={<PublishCampaign/>} />
           <Route path="/Upcoming-events" element={<Calenderc />} />
+          <Route path="/store" element={<Store />} />
 
 
          

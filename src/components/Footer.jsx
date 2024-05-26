@@ -80,7 +80,7 @@ export default function Footer() {
               >
                 <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
               </svg>
-              Company Name
+              EcoFreeze
             </h6>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique incidunt omnis doloremque tempora commodi deserunt earum ratione hic, eaque exercitationem.
@@ -93,22 +93,22 @@ export default function Footer() {
             </h6>
             <p className="mb-4">
               <Link to="#" className="text-white dark:text-neutral-200">
-                E Banking
+                Donation
               </Link>
             </p>
             <p className="mb-4">
               <Link to="#" className="text-white dark:text-neutral-200">
-                Green Investments
+                Redeemption
               </Link>
             </p>
             <p className="mb-4">
               <Link to="#" className="text-white dark:text-neutral-200">
-                Credit Hub
+                Contribution
               </Link>
             </p>
             <p>
               <Link to="#" className="text-white dark:text-neutral-200">
-                Carbon Offset
+                Humanism
               </Link>
             </p>
           </div>
@@ -119,22 +119,22 @@ export default function Footer() {
             </h6>
             <p className="mb-4">
               <Link to="#" className="text-white dark:text-neutral-200">
-                E Banking
+                Publish your campaign
               </Link>
             </p>
             <p className="mb-4">
               <Link to="#" className="text-white dark:text-neutral-200">
-                Green Investments
+                Start Donating
               </Link>
             </p>
             <p className="mb-4">
               <Link to="#" className="text-white dark:text-neutral-200">
-                Credit Hub
+                Store
               </Link>
             </p>
             <p>
               <Link to="#" className="text-white dark:text-neutral-200">
-                Carbon Offset
+               Upcoming Events
               </Link>
             </p>
           </div>

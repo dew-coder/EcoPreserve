@@ -1,6 +1,7 @@
 import React from "react";
 import Testimonial from "../components/Testimonial";
 import About from "../components/About";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -36,9 +37,15 @@ const Home = () => {
           <div className="text-center">Preserving Nature & Mother Earth</div>
 
           <div className=" flex justify-center w-full mt-12">
-            <div className="font-bold  px-6 py-4  text-white  text-2xl rounded-lg bg-green-700  cursor-pointer absolute z-20  hover:bg-green-500">
+            {/* <div className="font-bold  px-6 py-4  text-white  text-2xl rounded-lg bg-green-700  cursor-pointer absolute z-20  hover:bg-green-500">
               Donate Now
-            </div>
+            </div> */}
+        <Link to="/green_investment/green_projects">
+        <div className="font-bold px-6 py-4 text-white text-2xl rounded-lg bg-green-700 cursor-pointer absolute z-20 hover:bg-green-500">
+          Donate Now
+        </div>
+        </Link>
+
           </div>
         </div>
       </div>
