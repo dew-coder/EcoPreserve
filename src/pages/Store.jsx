@@ -58,10 +58,10 @@ export default function Store() {
   return (
     <div className="bg-black text-white py-8">
       <div className="text-8xl text-center py-4">Store</div>
-      <div className="font-bold text-2xl text-center pb-4 pt-4">
+      <div className="font-bold text-2xl text-center pb-14 pt-4">
         Redeem our products for free by using EcoPreserve Coins.
       </div>
-      <div className="bg-black text-white flex flex-wrap gap-14 p-4 px-12">
+      <div className="bg-black text-white flex flex-wrap gap-14 p-4 px-12 justify-around">
         {cardsData.map((card, index) => (
           <StoreCard
             key={index}
