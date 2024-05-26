@@ -115,7 +115,7 @@ const PublishCampaign = () => {
         </div>
     
         <div className="btn flex w-full justify-center ">
-            <button type="submit" className="bg-green-500 text-white rounded-md px-8 py-2 my-4 hover:bg-green-800 ">Submit</button>
+            <button type="submit" className="bg-green-500 text-white rounded-md px-12 py-2 my-4 hover:bg-green-800 ">Submit</button>
         </div>
        
       </form>

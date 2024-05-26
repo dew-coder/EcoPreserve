@@ -4,6 +4,7 @@ import Invest from "./pages/Invest";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Footer from "./components/Footer";
+import DonateProject from "./pages/DonateProject";
 // import Projects from "./new_pages/Projects"
 import PublishCampaign from "./pages/PublishCampaign";
 import PersonalDetails from "./components/PersonalDetails";
@@ -18,7 +19,6 @@ import Store from "./pages/Store";
 
 
 import { useState , useEffect} from "react";
-import DonateProject from "./new_pages/DonateProject";
 
 
 function App() {
