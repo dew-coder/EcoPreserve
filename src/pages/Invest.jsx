@@ -93,14 +93,14 @@ const Invest = () => {
         <div className="form flex flex-col w-fit items-center  justify-center rounded-xl  bg-white/10 py-5 px-10 ">
             <h1 className="mb-5 text-3xl font-semibold">Donate Now</h1>
             <form action="" method="post" className="flex flex-col gap-4">
-                <div className="my-2">
+                <div className="my-2 flex justify-between">
                 <label htmlFor="amount" className=" me-3">Amount</label>
                 <input type="text" name="amount" id="amount"
                 className="text-gray-700 px-1 rounded-md bg-white/80 outline-none"
                 placeholder=" Enter Amount"/>
                 </div>
-                <div className="my-2">
-                <label htmlFor="password" className="me-2">Re-enter Password </label>
+                <div className="my-2 flex justify-between">
+                <label htmlFor="password" className="me-2">Enter Password </label>
                 <input type="password" 
                 placeholder="Enter Password"
                 className="text-gray-700 px-1 rounded-md bg-white/80 outline-none "/>
