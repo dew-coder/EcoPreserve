@@ -83,26 +83,30 @@ const Invest = () => {
             {details.project_description}
         </p>
         <p>
-        <p className="">Goal Amount: {details.project_goal} </p>
-            <p className="">Minimum Donation: {details.project_min}</p>
+        <p className="font-bold">Goal Amount: {details.project_goal} eth </p>
+            <p className="font-bold">Minimum Donation: {details.project_min} eth</p>
         </p>
         </div>
         
         
         <div className="w-min-[30rem] flex  grow justify-center py-10">
-        <div className="form flex flex-col w-fit items-center  justify-center border shadow-md rounded-xl bg-green-100/50 py-5 px-10">
-            <h1 className="mb-3 text-lg font-semibold">Invest Now</h1>
-            <form action="" method="post" className="flex flex-col">
+        <div className="form flex flex-col w-fit items-center  justify-center rounded-xl  bg-white/10 py-5 px-10 ">
+            <h1 className="mb-5 text-3xl font-semibold">Donate Now</h1>
+            <form action="" method="post" className="flex flex-col gap-4">
                 <div className="my-2">
                 <label htmlFor="amount" className=" me-3">Amount</label>
-                <input type="text" name="amount" id="amount" placeholder=" Enter Amount"/>
+                <input type="text" name="amount" id="amount"
+                className="text-gray-700 px-1 rounded-md bg-white/80 outline-none"
+                placeholder=" Enter Amount"/>
                 </div>
-                <div className="m-2">
+                <div className="my-2">
                 <label htmlFor="password" className="me-2">Re-enter Password </label>
-                <input type="password" placeholder="Enter Password"/>
+                <input type="password" 
+                placeholder="Enter Password"
+                className="text-gray-700 px-1 rounded-md bg-white/80 outline-none "/>
                 </div>
                 <div className="flex justify-center">
-                <button type="submit" className="border rounded-md py-2 m-3 px-6 w-fit bg-green-900/50 text-white ">Invest</button>
+                <button type="submit" className=" rounded-md py-2 m-3 px-6 w-fit bg-green-500/80 text-white ">Donate</button>
                 </div>
                 
             </form>
