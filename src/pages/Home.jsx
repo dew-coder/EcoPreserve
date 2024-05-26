@@ -124,7 +124,7 @@ const Home = () => {
 
       <div className="bg-[#f2eae0d6] pt-12 ">
         <div
-          className="h-24 w-full bg-cover bg-center "
+          className="h-24 w-full bg-cover bg-center relative top-[3rem]"
           style={{
             backgroundImage:
               "url(https://res.cloudinary.com/dbyioi2qq/q_auto/v1699942414/static/shapes-1png_1699942188_51595.png)",
