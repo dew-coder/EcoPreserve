@@ -27,7 +27,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="absolute z-10 font-bold text-7xl text-white opacity-65 top-[12rem] left-[12rem] ">
+        <div className="absolute z-10 font-bold text-7xl text-white opacity-65 top-[12rem] w-full ">
           {/* <div className="text-center">Connecting Communities</div> */}
 
           {/* <div className="h-8 ">
@@ -36,12 +36,12 @@ const Home = () => {
 
           <div className="text-center">Preserving Nature & Mother Earth</div>
 
-          <div className=" flex justify-center w-full mt-12">
+          <div className=" flex justify-center w-[100dvw] mt-12 ">
             {/* <div className="font-bold  px-6 py-4  text-white  text-2xl rounded-lg bg-green-700  cursor-pointer absolute z-20  hover:bg-green-500">
               Donate Now
             </div> */}
-        <Link to="/green_investment/green_projects">
-        <div className="font-bold px-6 py-4 text-white text-2xl rounded-lg bg-green-700 cursor-pointer absolute z-20 hover:bg-green-500">
+        <Link to="/projects">
+        <div className="font-bold px-6 py-4 text-white text-2xl rounded-lg bg-green-700 cursor-pointer z-20 hover:bg-green-500">
           Donate Now
         </div>
         </Link>
